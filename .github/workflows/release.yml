@@ -19,7 +19,7 @@ jobs:
         with:
           # list of Docker images to use as base name for tags
           images: ${{ env.DOCKERHUB_USERNAME  }}/${{ env.DOCKERHUB_REPO }}
-          tags: type=match,pattern=v(.*),group=1,enable=true
+          tags: type=ref,event=tag
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
