@@ -2,14 +2,15 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: simple-nginx
-  labels: simple-nginx
 spec:
   replicas: 1
   selector:
-    matchLabels: simple-nginx
+    matchLabels: 
+      app: simple-nginx
   template:
     metadata:
-      labels: simple-nginx
+      labels: 
+        app: simple-nginx
     spec:
       containers:
         - name: {{ .Chart.Name }}
