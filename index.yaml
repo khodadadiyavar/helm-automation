@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  simple-nginx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-05T11:54:04.54015+02:00"
+    description: A Helm chart for Kubernetes
+    digest: b8acf5d91422920607496e170e5a2c5723f9d2f3c0a38eed1f41d3636485a630
+    name: simple-nginx
+    type: application
+    urls:
+    - https://khodadadiyavar.github.io/helm-automation/simple-nginx-0.1.0.tgz
+    version: 0.1.0
   youtube-stats-chart:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-04-05T10:46:04.004852+02:00"
+    created: "2023-04-05T11:54:04.5406+02:00"
     description: Youtube stats chart
     digest: a99aa01437a128acfe617ca8a8d9959d380c503f56c5d7a25d7a8806655c0458
     name: youtube-stats-chart
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://khodadadiyavar.github.io/helm-automation/youtube-stats-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-05T10:46:04.004059+02:00"
+generated: "2023-04-05T11:54:04.539556+02:00"
