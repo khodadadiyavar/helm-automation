@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-nginx
+  labels: simple-nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels: simple-nginx
+  template:
+    metadata:
+      labels: simple-nginx
+    spec:
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: http
+              containerPort: 30080
+              protocol: TCP
