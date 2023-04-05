@@ -3,12 +3,12 @@ entries:
   youtube-stats-chart:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-04-05T01:10:25.05628+02:00"
+    created: "2023-04-05T10:46:04.004852+02:00"
     description: Youtube stats chart
     digest: a99aa01437a128acfe617ca8a8d9959d380c503f56c5d7a25d7a8806655c0458
     name: youtube-stats-chart
     type: application
     urls:
-    - https://github.com/khodadadiyavar/helm-automation/youtube-stats-chart-0.1.0.tgz
+    - https://khodadadiyavar.github.io/helm-automation/youtube-stats-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-05T01:10:25.05106+02:00"
+generated: "2023-04-05T10:46:04.004059+02:00"
