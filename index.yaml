@@ -3,33 +3,33 @@ entries:
   simple-nginx:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2023-04-05T14:49:25.024272+02:00"
+    created: "2023-04-06T15:44:29.583094+02:00"
     description: A Helm chart for Kubernetes
     digest: 6d9bed11598bbb77a3f3ac3b6a5eded5f2bbb4f19548623476980eb23b8fbb61
     name: simple-nginx
     type: application
     urls:
-    - https://khodadadiyavar.github.io/helm-automation/simple-nginx-0.1.1.tgz
+    - simple-nginx-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-05T14:49:25.023869+02:00"
+    created: "2023-04-06T15:44:29.579827+02:00"
     description: A Helm chart for Kubernetes
     digest: e469916e0fea51ba065f3c1a9d9a986aebb953be04ddefa4f67820ce317d2172
     name: simple-nginx
     type: application
     urls:
-    - https://khodadadiyavar.github.io/helm-automation/simple-nginx-0.1.0.tgz
+    - simple-nginx-0.1.0.tgz
     version: 0.1.0
   youtube-stats-chart:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-04-05T14:49:25.024949+02:00"
+    created: "2023-04-06T15:44:29.584377+02:00"
     description: Youtube stats chart
     digest: a99aa01437a128acfe617ca8a8d9959d380c503f56c5d7a25d7a8806655c0458
     name: youtube-stats-chart
     type: application
     urls:
-    - https://khodadadiyavar.github.io/helm-automation/youtube-stats-chart-0.1.0.tgz
+    - youtube-stats-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-05T14:49:25.02274+02:00"
+generated: "2023-04-06T15:44:29.578797+02:00"
